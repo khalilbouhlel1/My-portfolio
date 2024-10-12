@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { Facebook, HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Khalil Bouhlel",
@@ -48,15 +48,22 @@ export const DATA = {
         url: "https://x.com/khalil_bouhlel",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:bouhlelkhalil21@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
+    whatsapp: {
+      name: "Send Email",
+      url: "",
+      icon: Icons.whatsapp,
+
+      navbar: true,
+    },
     },
   },
 
@@ -66,7 +73,7 @@ export const DATA = {
       href: "https://1waydev.com/",
       badges: [],
       location: "Hybrid",
-      title: "Inter",
+      title: "Intership",
       logoUrl: "",
       start: "July 2022",
       end: "Aug 2022",
@@ -98,33 +105,40 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "StudyON",
+      href: "",
+      dates: "Jan 2023 - Juin 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "a comprehensive online training platform using Laravel, with multi-authentication and responsive design to ensure seamless access across devices",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
+        "Laravel",
+        "Php",
+        "CSS",
+        "Bootstrap",
+        "Mysql",
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "/projectvid.mp4",
+    },
+    {
+      title: "Online Library",
+      href: "",
+      dates: "Oct 2024",
+      active: true,
+      description:
+        "Still under development",
+      technologies: [
+        "React",
+        "Node.js",
+        "Javacript",
+        "Express.js",
+        "Mongodb",
+      ],
+      image: "/Screenshot 2024-10-12 220036.png",
+      video:
+        "",
     },
   ],
 } as const;
