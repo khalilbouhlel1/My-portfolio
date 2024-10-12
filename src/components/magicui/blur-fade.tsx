@@ -11,7 +11,7 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: undefined;
+  inViewMargin?: number; // Changed from string to number
   blur?: string;
 }
 
@@ -22,12 +22,13 @@ const BlurFade = ({
   duration = 0.4,
   delay = 0,
   yOffset = 6,
-  inView = false,
+  inView,
+  inViewMargin = -50, // Default value as a number
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef<HTMLDivElement>(null);
-  const inViewResult = useInView(ref, { once: true });
-  const isInView = !inView || inViewResult;
+  const inViewResult = useInView(ref, { margin: `${inViewMargin}px` }); // Convert to string with "px"
+  const isInView = inView ?? inViewResult;
 
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
