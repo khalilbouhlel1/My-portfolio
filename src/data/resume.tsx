@@ -52,7 +52,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "bouhlelkhalil21@gmail.com",
+        url: "mailto:bouhlelkhalil21@gmail.com",
         icon: Icons.email,
 
         navbar: true,
