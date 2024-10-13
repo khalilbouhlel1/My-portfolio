@@ -74,7 +74,7 @@ export const DATA = {
       badges: [],
       location: "Hybrid",
       title: "Intership",
-      logoUrl: "",
+      logoUrl: "/1waycom_logo.jpeg",
       start: "July 2022",
       end: "Aug 2022",
       description:
@@ -86,7 +86,7 @@ export const DATA = {
       href: "https://www.innovup.com.tn",
       location: "Remote",
       title: "Intership",
-      logoUrl: "",
+      logoUrl: "/images.png",
       start: "Jan 2023",
       end: "Jui 2023",
       description:
@@ -98,7 +98,7 @@ export const DATA = {
       school: "Institut Superieur d'informatique EL Kef",
       href: "http://www.isikef.rnu.tn/Fr/accueil_46_4",
       degree: "License en science informatique, Specialité:Multimedia",
-      logoUrl: "/",
+      logoUrl: "/isikef.jpg",
       start: "2020",
       end: "2023",
     },
