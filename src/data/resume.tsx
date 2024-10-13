@@ -8,7 +8,7 @@ export const DATA = {
   location: "Ben arous, Tunisia",
   locationLink: "https://maps.app.goo.gl/XdvawQCGJinNcXsa9",
   description:
-    "a solid IT foundation and hands-on expertise in web development, and full-stack technologies, I bring a well-rounded skill set. My experience combined with certifications, positions me to contribute effectively to dynamic development teams. ",
+    "your favorite hyper energized developer ",
   summary:
     "I’m a creative problem-solver, always thinking of new ways to approach challenges. I just graduated, and now I’m in the grind of trying to land my first real developer job. Being entry-level isn’t easy—balancing learning new things, applying to jobs, and waiting for that call. But even though it’s been a hustle, I know I’ve got the skills and passion to make something happen. It’s just about finding the right fit and sticking with it. I’m ready for whatever comes next.",
   avatarUrl: "/me.jpg",
