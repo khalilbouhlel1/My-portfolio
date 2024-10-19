@@ -123,22 +123,19 @@ export const DATA = {
         "/projectvid.mp4",
     },
     {
-      title: "Online Library",
+      title: "Readsy",
       href: "",
       dates: "Oct 2024",
       active: true,
       description:
-        "Still under development",
+        "Frontend online library platform called 'readsy' ",
       technologies: [
         "React",
-        "Node.js",
-        "Javacript",
-        "Express.js",
-        "Mongodb",
+        "Tailwindcss",
       ],
-      image: "/Screenshot 2024-10-12 220036.png",
+      image: "",
       video:
-        "",
+        "/public/Recording 2024-10-19 111238.mp4",
     },
   ],
 } as const;
