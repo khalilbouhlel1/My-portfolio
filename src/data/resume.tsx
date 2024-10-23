@@ -134,7 +134,7 @@ export const DATA = {
         "Tailwindcss",
       ],
       image: "",
-      video: "/public/Recording 2024-10-19 111238.mp4", // Ensure this path is correct
+      video: "/Recording 2024-10-19 111238.mp4", // Ensure this path is correct
     },
     {
       title: "MoviesHere",
@@ -149,7 +149,7 @@ export const DATA = {
         "JavaScript",
       ],
       image: "",
-      video: "/public/MoviesHere.mp4", // Ensure this path is correct
+      video: "/MoviesHere.mp4", // Ensure this path is correct
     },
   ],
 } as const;
