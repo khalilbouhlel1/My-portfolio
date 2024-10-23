@@ -137,5 +137,20 @@ export const DATA = {
       video:
         "/public/Recording 2024-10-19 111238.mp4",
     },
+    {
+      title: "MoviesHere",
+      href: "",
+      dates: "Sept 2024",
+      active: true,
+      description:
+        "MoviesHere is a platform that allows users to search for movies and watch them online.",
+      technologies: [
+        "React",
+        "css",
+      ],
+      image: "",
+      video:
+        "/public/MoviesHere.mp4",
+    },
   ],
 } as const;
