@@ -53,11 +53,11 @@ export async function generateMetadata({
 
 export default async function Blog({
   params,
-}: {
+}: Readonly<{
   params: {
     slug: string;
   };
-}) {
+}>) {
   let post = await getPost(params.slug);
 
   if (!post) {

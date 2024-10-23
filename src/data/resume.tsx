@@ -128,14 +128,13 @@ export const DATA = {
       dates: "Oct 2024",
       active: true,
       description:
-        "Frontend online library platform called 'readsy' ",
+        "Readsy is an innovative online library platform designed to provide users with a seamless reading experience. It offers a vast collection of digital books across various genres, allowing users to easily search, read, and manage their personal library. The platform features a user-friendly interface with advanced search capabilities, personalized recommendations, and a responsive design that ensures accessibility across all devices. Additionally, Readsy supports community engagement through book reviews and discussion forums, fostering a vibrant reading community.",
       technologies: [
         "React",
         "Tailwindcss",
       ],
       image: "",
-      video:
-        "/public/Recording 2024-10-19 111238.mp4",
+      video: "/public/Recording 2024-10-19 111238.mp4", // Ensure this path is correct
     },
     {
       title: "MoviesHere",
@@ -143,14 +142,14 @@ export const DATA = {
       dates: "Sept 2024",
       active: true,
       description:
-        "MoviesHere is a platform that allows users to search for movies and watch them online.",
+        "MoviesHere is a platform that allows users to search for movies and watch them online. It provides a user-friendly interface with a comprehensive search feature, enabling users to easily find and stream their favorite movies.",
       technologies: [
         "React",
         "css",
+        "JavaScript",
       ],
       image: "",
-      video:
-        "/public/MoviesHere.mp4",
+      video: "/public/MoviesHere.mp4", // Ensure this path is correct
     },
   ],
 } as const;
