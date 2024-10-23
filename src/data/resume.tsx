@@ -38,7 +38,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/khalil-bouhlel-83b9a8245/",
+        url: "https://www.linkedin.com/in/khalil-bouhlel",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -62,7 +62,7 @@ export const DATA = {
       url: "",
       icon: Icons.whatsapp,
 
-      navbar: true,
+      navbar: false,
     },
     },
   },
