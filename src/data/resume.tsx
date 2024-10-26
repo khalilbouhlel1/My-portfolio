@@ -21,6 +21,10 @@ export const DATA = {
     "Angular",
     "Laravel",
     "Php",
+    "Tailwindcss",
+    "Express",
+    "MongoDB",
+    "Nodejs",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -150,6 +154,23 @@ export const DATA = {
       ],
       image: "",
       video: "/MoviesHere.mp4", // Ensure this path is correct
+    },
+    {
+      title: "FripiKa",
+      href: "",
+      dates: "Oct 2024",
+      active: true,
+      description:
+        "FripiKa is an online store offering a wide range of clothing items for all ages.",
+      technologies: [
+        "React",
+        "Tailwindcss",
+        "Express",
+        "MongoDB",
+        "Nodejs",
+      ],
+      image: "",
+      video: "/FripiKa.mp4", // Ensure this path is correct
     },
   ],
 } as const;
