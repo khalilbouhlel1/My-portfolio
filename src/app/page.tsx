@@ -194,7 +194,7 @@ export default function Page() {
         <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           Want to know more about my skills and experiences? Click the button
           below to <Link
-                  href={"/Khalil bouhlel cv2.pdf"}
+                  href={"/CV Khalil Bouhlel.pdf"}
                   className="text-blue-500 hover:underline"
                 >
                   download my CV
